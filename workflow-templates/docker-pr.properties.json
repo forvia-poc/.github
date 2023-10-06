@@ -1,0 +1,11 @@
+{
+    "name": "Docker image lint and build",
+    "description": "Lint and build a Docker image.",
+    "iconName": "docker",
+    "categories": [
+        "code-review"
+    ],
+    "filePatterns": [
+        "^Dockerfile"
+    ]
+}

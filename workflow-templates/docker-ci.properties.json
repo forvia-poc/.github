@@ -1,0 +1,11 @@
+{
+    "name": "Docker image build and push",
+    "description": "Build a Docker image and push it to a registry.",
+    "iconName": "docker",
+    "categories": [
+        "continuous-integration"
+    ],
+    "filePatterns": [
+        "^Dockerfile"
+    ]
+}
