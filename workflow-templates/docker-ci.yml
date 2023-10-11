@@ -8,7 +8,7 @@ on:
 
 jobs:
   docker-build-push:
-    uses: forvia-poc/actions/.github/workflows/docker-build-push.yml@features/workflow-docker-build
+    uses: forvia-poc/actions/.github/workflows/docker-build-push.yml@main
     with:
       image_repository: ${{ vars.IMAGE_REPOSITORY }}
       image_tag: latest
