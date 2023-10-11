@@ -6,7 +6,7 @@ on:
 
 jobs:
   docker-lint:
-    uses: forvia-poc/actions/.github/workflows/docker-lint.yml@features/workflow-docker-lint
+    uses: forvia-poc/actions/.github/workflows/docker-lint.yml@main
   
   docker-build:
-    uses: forvia-poc/actions/.github/workflows/docker-build.yml@features/workflow-docker-build
+    uses: forvia-poc/actions/.github/workflows/docker-build.yml@main
